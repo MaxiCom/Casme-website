@@ -22,6 +22,10 @@ html, body {
 	visibility: visible !important;
 }
 
+.hidden {
+	display: none;
+}
+
 body {
 	font-family: $font;
 
@@ -38,8 +42,6 @@ body {
 		border-color: #3D85C3;
 		background-color: #3D85C3;
 	}
-
-	#wrapper {display: none;}
 }
 
 nav {
@@ -95,7 +97,6 @@ header {
 		top: 40%;
 
 		.header-content-inner {
-			color: white;
 
 			h1 {
 				margin: 0;
@@ -129,37 +130,32 @@ header {
 		margin-top: 30px; 
 
 		border-radius: 10px;
-
-		transition: .5s all ease-in;
 	}
 }
 
 #Services {
 	p {color: grey;}
-
 	.service-box {margin-top: 30px;}
-
-	.service-box-left, .service-box-right {
-		opacity: 0;
-
-		transition: 0.5 all ease-in;
-	}
+	.service-box-left, .service-box-right {opacity: 0;}
 }
 
 #Realisation {
 	background-color: $blue-color;
 
-	h2{
-		color: white;
+	h2 {color: white;}
+	hr {background-color: white;}
+	img {width: 400px;}
+
+	.realisation-box-left, .realisation-box-right {
+		visibility: hidden;
+
+		margin-top: 10px;
 	}
 
-	hr {
-		background-color: white;
-	}
 }
 
 #Whoami {
-	background-color:#222222;
+	background-color: #222222;
 
 	h2, p {color: $text-color;}
 

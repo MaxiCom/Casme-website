@@ -1,5 +1,5 @@
 $(window).scroll(function (event) {
-    var scroll = $(window).scrollTop();
+  var scroll = $(window).scrollTop();
 	
   //Top bar
 	if (scroll > $(document).height() * 0.08)
@@ -8,17 +8,23 @@ $(window).scroll(function (event) {
 		$("nav").removeClass("transform");
   
   //About btn
-  if (scroll > $(document).height() * 0.12)
+  if (scroll > $(document).height() * 0.10)
     $("#About-btn").addClass("animated fadeInUp visible");
 
   //Services boxes
-  if (scroll > $(document).height() * 0.27){
+  if (scroll > $(document).height() * 0.2){
     $(".service-box-left").addClass("animated fadeInLeft visible");
     $(".service-box-right").addClass("animated fadeInRight visible");
   }
 
+  //Realisation boxes
+  if (scroll > $(document).height() * 0.4){
+    $(".realisation-box-left").addClass("animated fadeInLeft visible");
+    $(".realisation-box-right").addClass("animated fadeInRight visible");
+  }
+
   //Contact boxes
-  if (scroll > $(document).height() * 0.6){
+  if (scroll > $(document).height() * 0.7){
     $(".contact-item-left").addClass("animated fadeInLeft visible");
     $(".contact-item-middle").addClass("animated fadeInUp visible");
     $(".contact-item-right").addClass("animated fadeInRight visible");

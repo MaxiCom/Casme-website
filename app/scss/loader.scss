@@ -26,26 +26,32 @@
 }
 
 .cs-loader-inner {
-    display:block;
-    position: relative;
-    top: 44%;
-    background:$blue-color;
-    margin: 0 auto;
-    width:2em;
-    height:4em;
-    box-shadow:
-        inset $blue-color 0 0 0 0,
-        inset white 0 2em 0 0,
-        inset $blue-color 0 0 4em 0;
-    animation:hourglass 1s linear infinite;
+  position: relative;
+  top: 44%;
+
+  display: block;
+
+  width:2em;
+  height:4em;
+
+  margin: 0 auto;
+
+  box-shadow:
+      inset $blue-color 0 0 0 0,
+      inset white 0 2em 0 0,
+      inset $blue-color 0 0 4em 0;
+
+  background:$blue-color;
+
+  animation:hourglass 1s linear infinite;
 }
 
 .outer{
-    fill:white;
+    fill: white;
 }
 
 .middle{
-    fill:$blue-color;
+    fill: $blue-color;
 }
 
 @keyframes hourglass{

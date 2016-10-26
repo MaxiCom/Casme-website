@@ -9,6 +9,7 @@ $(document).ready(function() {
 
     setTimeout(function(){
         $('.cs-loader').fadeOut();
-        $('#wrapper').show();       
+
+        $('#wrapper').removeClass('hidden');    
     }, 2700);
 });
