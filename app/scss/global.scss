@@ -1,0 +1,188 @@
+@import "scss/_var";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #222;
+
+	text-decoration: none;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+.visible {
+	opacity: 1;
+
+	visibility: visible !important;
+}
+
+body {
+	font-family: $font;
+
+	background-color: $background-color;
+
+	min-width: 500px;
+
+	hr {
+		height: 4px;
+		max-width: 200px;
+
+		margin: 20px auto;
+
+		border-color: #3D85C3;
+		background-color: #3D85C3;
+	}
+
+	#wrapper {display: none;}
+}
+
+nav {
+	border-bottom: 0 !important;
+
+	background-color: transparent !important;
+
+	text-transform: uppercase;
+
+	transition: .3s all ease-in;
+
+	a, i {
+		font-weight: bold;
+	}
+
+	a:hover, a:hover i{color: #777 !important;}
+	
+
+	//Problem
+	&.transform{
+
+		border-bottom: 1px solid #8080804d !important;
+
+		background-color: white !important;
+
+		a, a i {color: #222222 !important;}
+
+		a:hover, a:hover i {color: $blue-color !important;}
+	}
+	
+	@media (max-width: 768px) {
+		border-bottom: 1px solid #8080804d !important;
+
+		background-color: white !important;
+
+		a, a i {color: #222222 !important;}
+
+		a:hover, a:hover i {color: $blue-color !important;}
+	}
+	// END
+}
+
+
+header {
+	width: 100%;
+	height: 100%;
+
+	text-align: center;
+
+	.header-content {
+
+		position: relative;
+		top: 40%;
+
+		.header-content-inner {
+			color: white;
+
+			h1 {
+				margin: 0;
+				
+				font-weight: bold;
+				font-size: 3em;
+			}
+
+			h3 {margin-bottom: 20px;}
+
+			a {border-radius: 10px;}
+		}
+	}
+}
+
+#About, #Services, #Realisation,#Whoami, #Contact {
+	padding: 70px 0;
+
+	text-align: center;
+
+	h2, h3, p, i {color: #333;}
+}
+
+#About {
+	background-color: $blue-color;
+
+	h3 {color: white;}
+
+	a {
+		visibility: hidden;
+		margin-top: 30px; 
+
+		border-radius: 10px;
+
+		transition: .5s all ease-in;
+	}
+}
+
+#Services {
+	p {color: grey;}
+
+	.service-box {margin-top: 30px;}
+
+	.service-box-left, .service-box-right {
+		opacity: 0;
+
+		transition: 0.5 all ease-in;
+	}
+}
+
+#Realisation {
+	background-color: $blue-color;
+
+	h2{
+		color: white;
+	}
+
+	hr {
+		background-color: white;
+	}
+}
+
+#Whoami {
+	background-color:#222222;
+
+	h2, p {color: $text-color;}
+
+	img {
+		width: 200px;
+		height: 200px;
+
+		border-radius: 15%;
+	}
+}
+
+#Contact {
+	#map {
+		margin: auto;
+	}
+
+	.contact-item {
+		visibility: hidden;
+
+		margin: 20px 0;
+	}
+
+	i {
+		margin-bottom: 5px;
+	}
+}

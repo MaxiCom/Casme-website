@@ -1,0 +1,43 @@
+.cs-loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  height: 100%;
+  width: 100%;
+  background: #3498db; }
+
+.loaded {
+  opacity: 0;
+  visibility: hidden;
+  transition: all .2s ease-out; }
+
+.cs-loader-inner {
+  display: block;
+  position: relative;
+  top: 44%;
+  background: #3498db;
+  margin: 0 auto;
+  width: 2em;
+  height: 4em;
+  box-shadow: inset #3498db 0 0 0 0, inset white 0 2em 0 0, inset #3498db 0 0 4em 0;
+  animation: hourglass 1s linear infinite; }
+
+.outer {
+  fill: white; }
+
+.middle {
+  fill: #3498db; }
+
+@keyframes hourglass {
+  0% {
+    transform: rotate(0deg);
+    box-shadow: inset #3498db 0 0 0 0, inset white 0 2em 0 0, inset #3498db 0 4em 0 0, inset white 0 4em 0 0; }
+  80% {
+    transform: rotate(0deg);
+    box-shadow: inset #3498db 0 2em 0 0, inset white 0 2em 0 0, inset #3498db 0 2em 0 0, inset white 0 4em 0 0; }
+  100% {
+    transform: rotate(180deg);
+    box-shadow: inset #3498db 0 2em 0 0, inset white 0 2em 0 0, inset #3498db 0 2em 0 0, inset white 0 4em 0 0; } }
+
+/*# sourceMappingURL=loader.css.map */
