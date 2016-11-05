@@ -11,10 +11,8 @@
 
 		background-color: white !important;
 
-		nav a, nav a i {color: #222222 !important;}
-		nav a:hover, nav a:hover i {color: $blue-color !important;}
+		a:hover, a:hover i {color: $blue-color !important;}
 	}
-
 }
 
 @media (max-height: 620px) and (min-width: 768px) {

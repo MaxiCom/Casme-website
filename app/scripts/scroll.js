@@ -8,14 +8,13 @@ $(window).scroll(function (event) {
 		$("nav").removeClass("transform");
   
   //About btn
-  if (scroll > $(document).height() * 0.08){
+  if (scroll > $(document).height() * 0.10){
     $(".About-btn").addClass("animated fadeInUp visible");
-
     $(".About-logo").addClass("animated fadeInLeft visible");
   }
 
   //Prestation boxes
-  if (scroll > $(document).height() * 0.3){
+  if (scroll > $(document).height() * 0.22){
     $(".Prestation-box-left").addClass("animated fadeInLeft visible");
     $(".Prestation-box-middle").addClass("animated fadeInUp visible");
     $(".Prestation-box-right").addClass("animated fadeInRight visible");

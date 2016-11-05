@@ -1,5 +1,6 @@
 <?php 
-	$random_backgroud_number = rand(0, 4); 
+	$random_backgroud_number = rand(0, 4);
+
 	switch ($random_backgroud_number) {
 		case 1:
 		case 4:
@@ -24,10 +25,7 @@
 
 			header .background h1, header .background h2{ color: <?php echo $text_color; ?>;}
 			nav a, nav i { color: <?php echo $text_color; ?> !important;}
-
-			@media (max-width: 768px) {
-				nav a, nav a i {color: #222222 !important;}
-			}
+			@media (max-width: 768px) {	nav a, nav a i {color: #222222 !important;}}
 		</style>
 	</head>
 	<body>
