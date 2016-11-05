@@ -1,0 +1,53 @@
+@media (max-width: 768px) {
+  header img {
+    width: 400px !important; }
+
+  header h1 {
+    font-size: 2.5em !important; }
+
+  header h2 {
+    font-size: 1.7em !important; }
+
+  nav {
+    border-bottom: 1px solid #8080804d !important;
+    background-color: white !important; }
+    nav nav a, nav nav a i {
+      color: #222222 !important; }
+    nav nav a:hover, nav nav a:hover i {
+      color: #006092 !important; } }
+@media (max-height: 620px) and (min-width: 768px) {
+  header {
+    height: 700px !important; } }
+@media (max-height: 500px) and (max-width: 768px) {
+  header {
+    height: 550px !important; } }
+@media (max-width: 1200px) {
+  #About h3 {
+    margin-top: 20px !important; }
+  #About a {
+    margin-top: 15px !important; } }
+@media (max-width: 1200px) {
+  #About h3 {
+    margin-top: 20px !important; }
+  #About a {
+    margin-top: 15px !important; } }
+@media (max-width: 1000px) {
+  #About img {
+    width: 178px !important;
+    height: 178px !important; }
+  #About h3 {
+    margin-top: 0px !important; }
+  #About a {
+    margin-top: 3px !important; } }
+@media (max-width: 768px) {
+  #About img {
+    width: 130px !important;
+    height: 130px !important; }
+  #About h3 {
+    font-size: 20px !important;
+    padding: 0 20px !important; } }
+@media (max-width: 1000px) {
+  #Prestations h3 {
+    font-size: 1.3em !important; } }
+
+/*# sourceMappingURL=media.css.map */

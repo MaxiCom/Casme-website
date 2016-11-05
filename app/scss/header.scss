@@ -1,0 +1,61 @@
+@import "scss/_var";
+
+nav {
+	border-bottom: 0 !important;
+
+	background-color: transparent !important;
+
+	text-transform: uppercase;
+
+	transition: .3s background-color ease-in;
+
+	a, i {font-weight: bold;}
+	a:hover, a:hover i{color: $blue-color !important;}
+
+	//Problem
+	&.transform{
+
+		border-bottom: 1px solid #8080804d !important;
+
+		background-color: white !important;
+
+		a, a i {color: #222222 !important;}
+
+		a:hover, a:hover i {color: $blue-color !important;}
+	}
+}
+
+
+header {
+	width: 100%;
+	height: 100%;
+
+	text-align: center;
+
+	.header-content {
+
+		position: relative;
+		top: 15%;
+		
+		.header-content-inner {
+
+			h1 {
+				margin: 0;
+				
+				font-weight: bold;
+				font-size: 3em;
+			}
+
+			h2 {margin-bottom: 20px;}
+
+			a {
+				border-radius: 9px;
+
+				background-color: $blue-color;
+			}
+
+			img {width: 600px;}
+
+		}
+	}
+}

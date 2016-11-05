@@ -1,0 +1,34 @@
+#Contact {
+	#map {
+		margin: auto;
+	}
+
+	.contact-item {
+		visibility: hidden;
+
+		line-height: 75px;
+
+		margin: 20px 0;
+	}
+
+	img {
+		height: 75px;
+
+		float: left;
+
+		margin-right: 10px;
+	}
+
+	a {
+		display: block;
+
+		margin-bottom: 10px;
+
+		font-size: larger;
+		font-weight: bold;
+
+		text-align: left;
+	}
+
+
+}
