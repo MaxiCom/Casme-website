@@ -1,6 +1,6 @@
 @import "scss/_var";
 
-#About, #Whoami, #Prestations, #Contact {
+#About, #Whoami, #Prestations, #Contact, #Artisanat {
 	padding: 70px 0;
 
 	text-align: center;
@@ -87,6 +87,44 @@
 		width: 250px;
 		height: 250px;
 	}
+}
+
+#Artisanat {
+	background-color: $blue-color;
+
+	list-style: none;
+
+	h3 {
+		margin-top: 10px;
+
+		text-align: left;
+	}
+
+	p {
+		font-size: medium;
+		
+		text-align: left;
+	}
+
+	hr {
+		background-color: white;
+		border-color: white;
+	}
+
+	img {
+		width: 300px;
+
+		margin-top: 150px;
+	}
+
+	i {
+		margin-right: 10px;
+
+		vertical-align: middle;
+	}
+
+	p {padding-left: 50px;}
+	h3, h2, p, i {color: white;}
 }
 
 #Whoami {
