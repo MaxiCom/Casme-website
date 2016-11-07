@@ -10,5 +10,5 @@ $(document).ready(function() {
     setTimeout(function(){
         $('.cs-loader').fadeOut();
         $('#wrapper').removeClass('hidden');    
-    }, 2700);
+    }, 00);
 });

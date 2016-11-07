@@ -94,7 +94,7 @@
 }
 
 #Artisanat {
-	background-color: #222222;
+	background-color: $blue-color;
 
 	list-style: none;
 
@@ -165,4 +165,6 @@
 	i {
 		margin-bottom: 5px;
 	}
+
+	a {text-align: center !important;}
 }

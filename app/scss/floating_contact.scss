@@ -5,15 +5,17 @@
 
 	top: 30%;
 
+
+
 	z-index: 100;
 }
 
 #floatingContact {
-	left: -18.01em;
+	left: -279px;
 }
 
 #floatingMail {
-	left: -23.9em;
+	left: -371px;
 
 	margin-top: 55px;
 }
@@ -48,6 +50,8 @@
 		display: inline-block;
 
 		margin: 0;
+
+		font-size: 20px;
 
 		color: $blue-color;
 	}
