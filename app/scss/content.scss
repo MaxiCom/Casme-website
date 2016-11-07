@@ -89,8 +89,12 @@
 	}
 }
 
+.PrestationActive {
+	display: block;
+}
+
 #Artisanat {
-	background-color: $blue-color;
+	background-color: #222222;
 
 	list-style: none;
 
@@ -111,10 +115,17 @@
 		border-color: white;
 	}
 
-	img {
+	#artisan {
 		width: 300px;
 
-		margin-top: 150px;
+		margin-top: 40px;
+	}
+
+	#axa {
+		width: 200px;
+
+		margin-top: 70px;
+		margin-left: 50px;
 	}
 
 	i {

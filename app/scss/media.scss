@@ -72,3 +72,18 @@
 		h3 {font-size: 1.3em !important;}
 	}
 }
+
+// Artisanat
+@media (max-width: 1200px) {
+	#Artisanat {
+		img {display: none !important;}
+	}
+}
+
+// Contact
+@media (max-width: 1200px) {
+	#Contact {
+		a {font-size: 15px !important;}
+		img {width: 60px !important;}
+	}
+}
