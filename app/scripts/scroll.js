@@ -22,8 +22,6 @@ $(window).scroll(function (event) {
 
   //Contact boxes
   if (scroll > $(document).height() * 0.57){
-    $(".contact-item-left").addClass("animated fadeInLeft visible");
-    $(".contact-item-middle").addClass("animated fadeInUp visible");
     $(".contact-item-right").addClass("animated fadeInRight visible");
   }
 });
