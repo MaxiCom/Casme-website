@@ -1,8 +1,4 @@
 #Contact {
-	#map {
-		margin: auto;
-	}
-
 	.contact-item {
 		visibility: hidden;
 
@@ -14,8 +10,13 @@
 	img {
 		height: 75px;
 
-
 		margin-right: 10px;
+
+		transition: 0.1s all ease-in;
+	}
+
+	img:hover {
+		height: 82px !important;
 	}
 
 	a {
@@ -26,7 +27,7 @@
 		font-size: larger;
 		font-weight: bold;
 
-		text-align: left;
+		text-align: center;
 	}
 
 

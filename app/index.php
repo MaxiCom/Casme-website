@@ -22,7 +22,6 @@
 				background-position: center;
 				background-size: cover;
 			}
-
 			header .background h1, header .background h2{ color: <?php echo $text_color; ?>;}
 			nav a, nav i { color: <?php echo $text_color; ?> !important;}
 			@media (max-width: 768px) {	nav a, nav a i {color: #222222 !important;}}
