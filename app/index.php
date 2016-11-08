@@ -47,7 +47,6 @@
 
 		<!-- Stylesheets -->
 		<link rel="stylesheet" type="text/css" href="styles/global.css"/>
-		<link rel="stylesheet" type="text/css" href="styles/loader.css"/>
 		<link rel="stylesheet" type="text/css" href="styles/floating_contact.css"/>
 		<link rel="stylesheet" type="text/css" href="styles/header.css"/>
 		<link rel="stylesheet" type="text/css" href="styles/media.css" />
