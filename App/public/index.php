@@ -27,6 +27,8 @@
 			nav a, nav i { color: <?php echo $text_color; ?> !important;}
 			@media (max-width: 768px) {	nav a, nav a i {color: #222222 !important;}}
 		</style>
+
+		<link rel="stylesheet" type="text/css" href="stylesheets/index.min.css">
 	</head>
 	<body>
 		<?php 
@@ -42,9 +44,6 @@
 
 		<!-- Libs and scripts -->
 		<script src="resources/libs/javascript/jquery.min.js"></script>
-		<script type="text/javascript" src="scripts/loader.min.js"></script>
-		<script type="text/javascript" src="scripts/menu_toggle.min.js"></script>
-		<script type="text/javascript" src="scripts/scroll.min.js"></script>
-		<script type="text/javascript" src="scripts/prestationSelect.min.js"></script>
+		<script type="text/javascript" src="scripts/index.min.js"></script>
 	</body>
 </html>

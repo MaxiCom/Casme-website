@@ -5,6 +5,7 @@ var jshint = require('gulp-jshint');
 var jsmin = require('gulp-jsmin');
 var livereload = require('gulp-livereload');
 var rename = require('gulp-rename');
+var concat = require('gulp-concat');
 var clean = require('gulp-clean');
 
 // PATH VARIABLES //
@@ -33,6 +34,7 @@ gulp.task('jshint', function() {
 		.pipe(jshint())
 		.pipe(jshint.reporter('default'))
 		.pipe(jsmin())
+		.pipe(concat('index.js'))
 		.pipe(rename({suffix: '.min'}))
 		.pipe(gulp.dest(destination + scripts_destination))
 		.pipe(livereload());

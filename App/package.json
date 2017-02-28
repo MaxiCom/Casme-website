@@ -4,12 +4,13 @@
   "author": "Maxime Morlet",
   "devDependencies": {
     "gulp": "latest",
-    "jshint": "latest",
-		"gulp-sass": "latest",
-		"gulp-jshint": "latest",
-		"gulp-jsmin": "latest",
-		"gulp-livereload": "latest",
-		"gulp-rename": "latest",
-		"gulp-clean": "latest"
+    "gulp-clean": "latest",
+    "gulp-jshint": "latest",
+    "gulp-jsmin": "latest",
+    "gulp-livereload": "latest",
+    "gulp-rename": "latest",
+    "gulp-concat": "latest",
+    "gulp-sass": "latest",
+    "jshint": "latest"
   }
 }
