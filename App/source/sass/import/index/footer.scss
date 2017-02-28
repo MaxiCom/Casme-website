@@ -1,3 +1,5 @@
+@import '../../helpers/_mixins';
+
 #Contact {
 	.contact-item {
 		visibility: hidden;
@@ -13,7 +15,7 @@
 
 		margin-right: 10px;
 
-		transition: 0.1s all ease-in;
+		@include transition('width', .3s, ease);
 	}
 
 	img:hover {
@@ -30,6 +32,8 @@
 		font-weight: bold;
 
 		text-align: center;
+
+		@include transition('font-size', .3s, ease);
 	}
 
 

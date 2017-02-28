@@ -20,6 +20,8 @@
 		margin-bottom: 0px;
 
 		color: white;
+
+		@include transition('margin-top, font-size', .3s, ease);
 	}
 
 	a {
@@ -36,6 +38,8 @@
 		border-radius: 15%;
 
 		opacity: 0;
+
+		@include transition('width, height', .3s, ease);
 	}
 }
 
@@ -65,6 +69,8 @@
 		font-weight: bold;
 
 		margin-top: 10px;
+
+		@include transition('font-size', .3s, ease);
 	}
 }
 
@@ -81,6 +87,8 @@
 		width: 250px;
 		height: 250px;
 	}
+
+	h3 { @include transition('margin-left', .3s, ease); }
 }
 
 .PrestationActive {

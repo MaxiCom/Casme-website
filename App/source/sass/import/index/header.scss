@@ -1,4 +1,5 @@
 @import "../../helpers/_variables";
+@import '../../helpers/_mixins';
 
 nav {
 	border-bottom: 0 !important;
@@ -7,12 +8,14 @@ nav {
 
 	text-transform: uppercase;
 
-	transition: .3s background-color ease-in;
+	@include transition('background-color, border-bottom', .3s, ease);
 
-	a, i {font-weight: bold;}
-	a:hover, a:hover i{color: $blue-color !important;}
+	a:hover, a:hover i{
+		color: $blue-color !important;
 
-	//Problem
+		@include transition('color', .3s, ease);
+	}
+
 	&.transform {
 		border-bottom: 1px solid rgba(128, 128, 128, .35) !important;
 
@@ -22,6 +25,8 @@ nav {
 
 		a:hover, a:hover i {color: $blue-color !important;}
 	}
+
+	a, i {font-weight: bold;}
 }
 
 
@@ -43,6 +48,8 @@ header {
 				
 				font-weight: bold;
 				font-size: 3em;
+
+				@include transition('font-size', .3s, ease);
 			}
 
 			h1 {
@@ -50,6 +57,8 @@ header {
 
 				font-weight: bold;
 				font-size: 2.2em;
+
+				@include transition('font-size', .3s, ease);
 			}
 
 			a {
@@ -58,7 +67,11 @@ header {
 				background-color: $blue-color;
 			}
 
-			img {width: 600px;}
+			img {
+				width: 600px;
+
+				@include transition('width', .3s, ease);
+			}
 
 		}
 	}

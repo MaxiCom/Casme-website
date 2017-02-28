@@ -13,7 +13,7 @@ var source = './source/';
 var destination = './public/';
 
 var sass_source = 'sass/';
-var sass_sources = 'pages/**/*.scss';
+var sass_sources = '**/*.scss';
 var sass_destination = 'stylesheets/';
 
 var scripts_source = 'scripts/';
@@ -22,7 +22,7 @@ var scripts_destination = 'scripts/';
 
 // BUILD TASKS //
 gulp.task('sass', function() {
-	return gulp.src(source + sass_source + sass_sources)
+	return gulp.src(source + sass_source + 'pages/' + sass_sources)
 		.pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
 		.pipe(rename({suffix: '.min'}))
 		.pipe(gulp.dest(destination + sass_destination))

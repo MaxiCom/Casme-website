@@ -1,0 +1,19 @@
+@mixin transition($property, $duration, $timing) {
+	-webkit-transition-property: unquote($property);
+	   -moz-transition-property: unquote($property);
+		-ms-transition-property: unquote($property);
+		 -o-transition-property: unquote($property);
+			transition-property: unquote($property);
+
+	-webkit-transition-duration: $duration;
+	   -moz-transition-duration: $duration;
+		-ms-transition-duration: $duration;
+		 -o-transition-duration: $duration;
+			transition-duration: $duration;
+
+	-webkit-transition-timing-function: $timing;
+	   -moz-transition-timing-function: $timing;
+		-ms-transition-timing-function: $timing;
+		 -o-transition-timing-function: $timing;
+			transition-timing-function: $timing;
+}
