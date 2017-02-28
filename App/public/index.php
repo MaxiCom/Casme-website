@@ -43,8 +43,8 @@
 		</div>
 
 		<!-- Libs and scripts -->
+		<script async src="resources/libs/javascript/bootstrap.min.js"></script>
 		<script src="resources/libs/javascript/jquery.min.js"></script>
-		<script src="resources/libs/javascript/bootstrap.min.js"></script>
 		<script type="text/javascript" src="scripts/index.min.js"></script>
 	</body>
 </html>
