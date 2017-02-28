@@ -1,0 +1,49 @@
+@import '../helpers/_variables';
+@import '_fonts';
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #222;
+
+	text-decoration: none;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+.visible {
+	opacity: 1;
+
+	visibility: visible !important;
+}
+
+body {
+	font-family: $font;
+
+	background-color: $background-color;
+
+	min-width: 500px;
+
+	overflow: hidden;
+
+	hr {
+		height: 4px;
+		max-width: 200px;
+
+		margin: 20px auto;
+
+		border-color: $blue-color;
+		background-color: $blue-color;
+	}
+}
+
+
+.hidden { display: none; }
+.fontello-2x { font-size: 2em; }
+.fontello-3x { font-size: 3em; }

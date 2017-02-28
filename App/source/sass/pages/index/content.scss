@@ -1,0 +1,154 @@
+@import "../../helpers/_variables";
+
+#About, #Whoami, #Prestations, #Contact, #Artisanat {
+	padding: 70px 0;
+
+	text-align: center;
+
+	h2, h3, p, i {color: #333;}
+	h2 {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+}
+
+#About {
+	background-color: $blue-color;
+
+	h3 {
+		margin-top: 30px;
+		margin-bottom: 0px;
+
+		color: white;
+	}
+
+	a {
+		opacity: 0;
+		margin-top: 30px; 
+
+		border-radius: 10px;
+	}
+
+	img {
+		width: 200px;
+		height: 200px;
+
+		border-radius: 15%;
+
+		opacity: 0;
+	}
+}
+
+#Prestations {
+	padding: 70px 0 35px 0;
+
+	.Prestation-box {margin-top: 0px;}
+	.Prestation-box-left, .Prestation-box-middle, .Prestation-box-right {opacity: 0;}
+
+	img {
+		border: 2px solid $blue-color;
+		border-radius: 50%;
+
+		width: 100px;
+		height: 100px;
+
+		transition: .2s all ease-in;
+	}
+
+	img:hover {
+		cursor: pointer;
+
+		-webkit-filter: saturate(3);
+	}
+
+	h3 {
+		font-weight: bold;
+
+		margin-top: 10px;
+	}
+}
+
+.PrestationElem {
+	display: none;
+
+	padding-bottom: 35px;
+
+	text-align: center;
+
+	h2 {
+		margin-top: 10px;
+
+		font-weight: bold;
+	}
+
+	img {
+		border: 2px solid $blue-color;
+
+		width: 250px;
+		height: 250px;
+	}
+}
+
+.PrestationActive {
+	display: block;
+}
+
+#Artisanat {
+	background-color: $blue-color;
+
+	list-style: none;
+
+	h3 {
+		margin-top: 10px;
+
+		text-align: left;
+	}
+
+	p {
+		font-size: medium;
+		
+		text-align: left;
+	}
+
+	hr {
+		background-color: white;
+		border-color: white;
+	}
+
+	img:first-child {
+		width: 300px;
+		height: 195px;
+
+		margin-top: 40px;
+	}
+
+	img:last-child {
+		width: 200px;
+		height: 200px;
+
+		margin-top: 70px;
+		margin-left: 50px;
+	}
+
+	i {
+		margin-right: 10px;
+
+		vertical-align: middle;
+	}
+
+	p {padding-left: 50px;}
+	h3, h2, p, i {color: white;}
+}
+
+#Whoami {
+	background-color: #222222;
+
+	h2, p {color: $text-color;}
+
+	img {
+		width: 200px;
+		height: 200px;
+
+		border-radius: 50%;
+	}
+}

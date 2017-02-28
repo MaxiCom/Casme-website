@@ -4,7 +4,7 @@ Un site vitrine fait en freelance pour une entreprise de plomberie.
 
 Lien: https://Casme.fr
 
-    Compilation Sass: "sass --watch scss:styles"
+    Compilation: "gulp"
 
 Développée avec:
 

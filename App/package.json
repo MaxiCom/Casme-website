@@ -1,0 +1,15 @@
+{
+  "name": "casme-website",
+  "version": "1.0.0",
+  "author": "Maxime Morlet",
+  "devDependencies": {
+    "gulp": "latest",
+    "jshint": "latest",
+		"gulp-sass": "latest",
+		"gulp-jshint": "latest",
+		"gulp-jsmin": "latest",
+		"gulp-livereload": "latest",
+		"gulp-rename": "latest",
+		"gulp-clean": "latest"
+  }
+}
