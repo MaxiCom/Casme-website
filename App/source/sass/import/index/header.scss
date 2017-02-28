@@ -38,14 +38,19 @@ header {
 		
 		.header-content-inner {
 
-			h1 {
+			h2 {
 				margin: 0;
 				
 				font-weight: bold;
 				font-size: 3em;
 			}
 
-			h2 {margin-bottom: 20px;}
+			h1 {
+				margin-bottom: 20px;
+
+				font-weight: bold;
+				font-size: 2.2em;
+			}
 
 			a {
 				border-radius: 9px;

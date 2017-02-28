@@ -1,4 +1,4 @@
-# compress text, html, javascript, css, xml:
+## COMPRESSION ##
 AddType image/svg+xml .svg
 
 AddOutputFilterByType DEFLATE text/plain
@@ -23,4 +23,6 @@ ExpiresByType application/javascript "access 1 year"
 ExpiresByType image/svg+xml "access 1 year"
 ExpiresDefault "access 10 year"
 </IfModule>
-## EXPIRES CACHING ##
+
+## REDIRECTION ##
+ErrorDocument 404 /index.php
