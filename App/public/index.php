@@ -18,7 +18,6 @@
 		<style type="text/css">
 			header {
 				background: url("/resources/images/header/background-plomberie-<?php echo $random_backgroud_number; ?>.jpg") no-repeat;
-
 				background-position: center;
 				background-size: cover;
 			}
@@ -42,9 +41,9 @@
 			<?php include("views/footer.html"); ?>
 		</div>
 
-		<!-- Libs and scripts -->
-		<script async src="resources/libs/javascript/bootstrap.min.js"></script>
-		<script src="resources/libs/javascript/jquery.min.js"></script>
+		<!-- LIBS AND SCRIPTS -->
+		<script async src="resources/libraries/javascript/bootstrap.min.js"></script>
+		<script src="resources/libraries/javascript/jquery.min.js"></script>
 		<script type="text/javascript" src="scripts/index.min.js"></script>
 
 		<!-- GOOGLE ANALYTICS -->
