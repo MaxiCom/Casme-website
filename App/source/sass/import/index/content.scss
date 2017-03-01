@@ -65,8 +65,9 @@
 		@include transition('padding', .3s, ease);
 
 		h3 {
-			margin-top: 13px;
+			margin-top: 25px;
 
+			font-size: 23px;
 			font-weight: bold;
 
 			@include transition('margin-top, font-size', .3s, ease);
