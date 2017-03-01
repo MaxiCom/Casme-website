@@ -1,4 +1,4 @@
-[class^="icon-"]:before, [class*=" icon-"]:before {
+ [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
@@ -7,7 +7,7 @@
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
-  margin-right: .1em;
+  margin-right: .2em;
   text-align: center;
   /* opacity: .8; */
  
@@ -20,7 +20,7 @@
  
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
-  margin-left: .1em;
+  margin-left: .2em;
  
   /* you can be more comfortable with increased icons size */
   /* font-size: 120%; */
@@ -33,14 +33,15 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-help-circled:before { content: '\e800'; } /* '' */
+.icon-user:before { content: '\e800'; } /* '' */
 .icon-camera:before { content: '\e801'; } /* '' */
-.icon-user:before { content: '\e802'; } /* '' */
-.icon-phone:before { content: '\e803'; } /* '' */
-.icon-mail:before { content: '\e804'; } /* '' */
-.icon-star:before { content: '\e805'; } /* '' */
-.icon-award:before { content: '\e806'; } /* '' */
+.icon-star:before { content: '\e802'; } /* '' */
+.icon-award:before { content: '\e803'; } /* '' */
+.icon-help-circled:before { content: '\e804'; } /* '' */
+.icon-phone:before { content: '\e805'; } /* '' */
+.icon-mail:before { content: '\e806'; } /* '' */
 .icon-shield:before { content: '\f132'; } /* '' */
 .icon-euro:before { content: '\f153'; } /* '' */
 .icon-paper-plane:before { content: '\f1d8'; } /* '' */
+.icon-newspaper:before { content: '\f1ea'; } /* '' */
 .icon-handshake-o:before { content: '\f2b5'; } /* '' */

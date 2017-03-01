@@ -1,7 +1,7 @@
 @import '../../helpers/_variables';
 @import '../../helpers/_mixins';
 
-#About, #Whoami, #Prestations, #Contact, #Artisanat {
+#About, #Actualites, #Prestations, #Contact, #Artisanat {
 	padding: 70px 0;
 
 	text-align: center;
@@ -42,6 +42,40 @@
 
 		@include transition('width, height', .3s, ease);
 	}
+}
+
+#Actualites {
+	background-color: #34495e;
+	.col-lg-12 {
+		h2 { color: white !important; }
+	}
+
+	.col-lg-4 {
+		img {
+			width: 85%;
+
+			@include transition('width', .3s, ease);
+		}
+	}
+
+	.col-lg-8 {
+		text-align: left;
+
+		@include transition('padding', .3s, ease);
+
+		h3 {
+			margin-top: 13px;
+
+			font-weight: bold;
+
+			@include transition('margin-top, font-size', .3s, ease);
+		}
+
+		p { @include transition('font-size', .3s, ease); }
+		p, h3 {	color: white !important; }
+	}
+
+	hr { background-color: white; }
 }
 
 #Prestations {

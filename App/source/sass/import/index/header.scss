@@ -26,7 +26,11 @@ nav {
 		a:hover, a:hover i {color: $blue-color !important;}
 	}
 
-	a, i {font-weight: bold;}
+	a, i {
+		font-weight: bold;
+
+		@include transition('font-size', .3s, ease);
+	}
 }
 
 
