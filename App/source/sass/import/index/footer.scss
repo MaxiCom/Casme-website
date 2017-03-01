@@ -18,11 +18,6 @@
 		@include transition('width', .3s, ease);
 	}
 
-	img:hover {
-		width: 82px !important;
-		height: 82px !important;
-	}
-
 	a {
 		display: block;
 
