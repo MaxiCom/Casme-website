@@ -34,5 +34,11 @@ body {
 	}
 }
 
+.visible {
+	opacity: 1;
+
+	visibility: visible !important;
+}
+
 .fontello-2x { font-size: 2em; }
 .fontello-3x { font-size: 3em; }
