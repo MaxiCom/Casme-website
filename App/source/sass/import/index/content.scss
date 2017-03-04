@@ -54,6 +54,7 @@
 	.col-lg-4 {
 		img {
 			width: 85%;
+			height: 100%;
 
 			@include transition('width', .3s, ease);
 		}
