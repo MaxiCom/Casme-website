@@ -6,7 +6,7 @@ Lien: https://Casme.fr
 
     Compilation: "gulp"
 
-Développée avec:
+Développé avec:
 
 -Sass
 

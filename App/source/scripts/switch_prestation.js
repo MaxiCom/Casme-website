@@ -3,8 +3,9 @@ $(".imgPrestation").click(function(elem) {
 		$visibleElem = $(".PrestationElem:visible");
 		
 		$(".PrestationElem").fadeOut();
-		if ($visibleElem.attr('id') == $(this).attr('id').substr(3))
+		if ($visibleElem.attr('id') == $(this).attr('id').substr(3)) {
 			return ;
+		}
 	}
 	$("#" + $(this).attr('id').substr(3)).delay(400).fadeIn();
 });
