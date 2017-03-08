@@ -52,7 +52,7 @@ gulp.task('clean-scripts', function() {
 });
 
 // OTHER TASKS //
-gulp.task('watch', function() {
+gulp.task('watch-daemon', function() {
 	livereload.listen();
 
 	gulp.watch(source + sass_source + sass_sources, ['sass']);
@@ -60,4 +60,5 @@ gulp.task('watch', function() {
 });
 
 gulp.task('default', ['sass', 'jshint']);
+gulp.task('watch', ['default', 'watch-daemon']);
 gulp.task('clean', ['clean-sass', 'clean-scripts']);
