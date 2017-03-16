@@ -1,7 +1,7 @@
 @import '../../helpers/_variables';
 @import '../../helpers/_mixins';
 
-#a_propos, #Actualites, #Prestations, #Contact, #Artisanat {
+#a_propos, #actualites, #prestations, #contact, #artisanat {
 	padding: 70px 0;
 
 	text-align: center;
@@ -16,10 +16,12 @@
 #a_propos {
 	background-color: $blue-color;
 
-	h3 {
+	p {
 		margin-top: 30px;
 		margin-bottom: 0px;
 
+		font-size: 20px;
+	
 		color: white;
 
 		@include transition('margin-top, font-size', .3s, ease);
@@ -44,7 +46,7 @@
 	}
 }
 
-#Actualites {
+#actualites {
 	background-color: #2c3e50;
 
 	.container:not(:first-child) .actualite {
@@ -87,7 +89,7 @@
 	hr { background-color: white; }
 }
 
-#Prestations {
+#prestations {
 	padding: 70px 0 35px 0;
 
 	.Prestation-box {margin-top: 0px;}
@@ -132,6 +134,12 @@
 		height: 250px;
 	}
 
+	p {
+		font-size: 20px;
+
+		padding: 0 15px;
+	}
+
 	h3 { @include transition('margin-left', .3s, ease); }
 }
 
@@ -139,7 +147,7 @@
 	display: block;
 }
 
-#Artisanat {
+#artisanat {
 	background-color: $blue-color;
 
 	list-style: none;

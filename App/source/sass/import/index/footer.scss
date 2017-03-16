@@ -1,6 +1,6 @@
 @import '../../helpers/_mixins';
 
-#Contact {
+#contact {
 	.contact-item {
 		visibility: hidden;
 
@@ -30,6 +30,4 @@
 
 		@include transition('font-size', .3s, ease);
 	}
-
-
 }

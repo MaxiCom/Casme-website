@@ -19,7 +19,7 @@ var html_sources = '*.html';
 var html_destination = 'views/';
 
 var sass_source = 'sass/';
-var sass_sources = '*.scss';
+var sass_sources = '**/*.scss';
 var sass_destination = 'stylesheets/';
 
 var scripts_source = 'scripts/';
