@@ -1,7 +1,7 @@
 @import '../../helpers/_variables';
 @import '../../helpers/_mixins';
 
-#About, #Actualites, #Prestations, #Contact, #Artisanat {
+#a_propos, #Actualites, #Prestations, #Contact, #Artisanat {
 	padding: 70px 0;
 
 	text-align: center;
@@ -13,7 +13,7 @@
 	}
 }
 
-#About {
+#a_propos {
 	background-color: $blue-color;
 
 	h3 {
