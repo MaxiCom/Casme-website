@@ -89,8 +89,10 @@ gulp.task('clean-php', function() {
 gulp.task('watch-daemon', function() {
 	livereload.listen();
 
+	gulp.watch(source + html_source + html_sources, ['html']);
 	gulp.watch(source + sass_source + sass_sources, ['sass']);
 	gulp.watch(source + scripts_source + scripts_sources, ['jshint']);
+	gulp.watch(source + php_source + php_sources, ['php']);
 });
 
 gulp.task('default', ['html', 'sass', 'jshint', 'php']);
