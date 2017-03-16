@@ -17,7 +17,6 @@
 	background-color: $blue-color;
 
 	p {
-		margin-top: 30px;
 		margin-bottom: 0px;
 
 		font-size: 20px;
@@ -137,12 +136,14 @@
 	p {
 		font-size: 18px;
 
-		padding-left: 15px;
+		padding-left: 30px;
 	}
 
 	h3 {
 		margin-top: 20px;
 		margin-bottom: 20px;
+
+		padding-left: 30px;
 
 		@include transition('margin-left', .3s, ease); 
 	}
