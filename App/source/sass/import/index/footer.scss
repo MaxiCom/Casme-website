@@ -4,16 +4,16 @@
 	.contact-item {
 		visibility: hidden;
 
-		line-height: 75px;
+		line-height: 60px;
 
 		margin: 20px 0;
 	}
 
 	img {
+		display: inline-block;
+
 		width: 75px;
 		height: 75px;
-
-		margin-right: 10px;
 
 		@include transition('width', .3s, ease);
 	}
@@ -21,13 +21,13 @@
 	a {
 		display: block;
 
-		margin-bottom: 10px;
-
 		font-size: larger;
-		font-weight: bold;
+
 
 		text-align: center;
 
 		@include transition('font-size', .3s, ease);
+
+		&:hover img { width: 70px; }
 	}
 }

@@ -6,8 +6,6 @@ $('a[href^="#"]').click(function(){
 });
 
 $(document).ready(function() {
-  var navbar = $("nav");
-
   var about_button = $(".About-btn");
   var about_logo = $(".About-logo");
 
@@ -18,12 +16,6 @@ $(document).ready(function() {
   var contact_item = $(".contact-item-right");
 
   $(window).scroll(function() {
-      if (!navbar.hasClass("transform") && $(window).scrollTop() > 350) {
-           navbar.addClass("transform");
-      } else if (navbar.hasClass("transform") && $(window).scrollTop() < 350) {
-           navbar.removeClass("transform");
-      }
-
       if (!about_logo.hasClass("visible") &&
            about_button[0].getBoundingClientRect().top < window.innerHeight / 1.25) {
            about_button.addClass("animated fadeInUp visible");

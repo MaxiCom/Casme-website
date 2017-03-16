@@ -21,7 +21,7 @@
 		margin-bottom: 0px;
 
 		font-size: 20px;
-	
+
 		color: white;
 
 		@include transition('margin-top, font-size', .3s, ease);
@@ -96,25 +96,25 @@
 	.Prestation-box-left, .Prestation-box-middle, .Prestation-box-right {opacity: 0;}
 
 	img {
-		border: 2px solid $blue-color;
-		border-radius: 50%;
-
 		width: 100px;
 		height: 100px;
 
-		transition: .2s all ease-in;
+		border: 2px solid $blue-color;
+		border-radius: 50%;
+
+		@include transition('filter', .3s, ease);
 	}
 
 	img:hover {
 		cursor: pointer;
 
-		-webkit-filter: saturate(3);
+		filter: saturate(400%);
 	}
 
 	h3 {
-		font-weight: bold;
-
 		margin-top: 10px;
+
+		font-size: 16px;
 
 		@include transition('font-size', .3s, ease);
 	}
@@ -135,12 +135,17 @@
 	}
 
 	p {
-		font-size: 20px;
+		font-size: 18px;
 
-		padding: 0 15px;
+		padding-left: 15px;
 	}
 
-	h3 { @include transition('margin-left', .3s, ease); }
+	h3 {
+		margin-top: 20px;
+		margin-bottom: 20px;
+
+		@include transition('margin-left', .3s, ease); 
+	}
 }
 
 .PrestationActive {
@@ -154,12 +159,15 @@
 
 	h3 {
 		margin-top: 10px;
+		margin-bottom: 10px;
 
 		text-align: left;
 	}
 
 	p {
-		font-size: medium;
+		padding-left: 50px;
+
+		font-size: 1.2em;
 		
 		text-align: left;
 	}
@@ -190,6 +198,5 @@
 		vertical-align: middle;
 	}
 
-	p {padding-left: 50px;}
 	h3, h2, p, i {color: white;}
 }

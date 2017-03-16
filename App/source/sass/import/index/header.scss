@@ -2,35 +2,19 @@
 @import '../../helpers/_mixins';
 
 nav {
-	border-bottom: 0 !important;
+	border-bottom: 1px solid rgba(128, 128, 128, .35) !important;
 
-	background-color: transparent !important;
+	background-color: white !important;
 
 	text-transform: uppercase;
 
-	@include transition('background-color, border-bottom', .3s, ease);
-
-	a:hover, a:hover i{
-		color: $blue-color !important;
-
-		@include transition('color', .3s, ease);
-	}
-
-	&.transform {
-		border-bottom: 1px solid rgba(128, 128, 128, .35) !important;
-
-		background-color: white !important;
-
-		a, a i {color: #222222 !important;}
-
-		a:hover, a:hover i {color: $blue-color !important;}
-	}
-
 	a, i {
-		font-weight: bold;
+		color: #222222 !important;
 
-		@include transition('font-size', .3s, ease);
+		@include transition('font-size, color', .3s, ease);
 	}
+
+	a:hover, a:hover i{ color: $blue-color !important; }
 }
 
 
@@ -41,12 +25,10 @@ header {
 	text-align: center;
 
 	.header-content {
-
 		position: relative;
 		top: 15%;
 		
 		.header-content-inner {
-
 			h2 {
 				margin: 0;
 				
@@ -59,14 +41,14 @@ header {
 			h1 {
 				margin-bottom: 20px;
 
-				font-weight: bold;
+
 				font-size: 2.2em;
 
 				@include transition('font-size', .3s, ease);
 			}
 
 			a {
-				border-radius: 9px;
+				border-radius: 5px;
 
 				background-color: $blue-color;
 			}
@@ -77,6 +59,7 @@ header {
 				@include transition('width', .3s, ease);
 			}
 
+			hr { margin: 15px auto; }
 		}
 	}
 }

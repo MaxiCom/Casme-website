@@ -5,8 +5,7 @@
 //    Tom Hazledine      //
 //                       //
 // --------------------- // 
-
-.cs-loader {
+.loader {
   position: fixed;
   top: 0;
   left: 0;
@@ -19,7 +18,7 @@
   background: $blue-color;
 }
 
-.cs-loader-inner {
+.loader-inner {
   position: relative;
   top: 44%;
 

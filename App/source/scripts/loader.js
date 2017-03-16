@@ -1,6 +1,6 @@
 $(document).ready(function() {
     setTimeout(function(){
-        $('.cs-loader').fadeOut();
+        $('.loader').fadeOut();
 
         $('body').css('overflow', 'auto');  
     }, 2700);

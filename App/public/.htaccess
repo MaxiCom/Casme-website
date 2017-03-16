@@ -20,6 +20,8 @@ ErrorDocument 404 /index.php
 
 ## HTTPS REDIRECTION ##
 RewriteEngine On
+RewriteCond %{HTTP_HOST} ^casme.fr [NC]
+RewriteRule ^(.*)$ https://www.casme.fr/$1 [L,R=301]
 RewriteCond %{HTTPS} !=on
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 

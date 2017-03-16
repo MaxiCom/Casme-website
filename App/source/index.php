@@ -4,7 +4,7 @@
 	switch ($random_backgroud_number) {
 		case 1:
 		case 4:
-			$text_color = "#4a4a4a";
+			$text_color = "#222222";
 			break ;
 		default:
 			$text_color = "white";
@@ -24,19 +24,17 @@
 			}
 			
 			header .background h1, header .background h2{ color: <?php echo $text_color; ?>;}
-			nav a, nav i { color: <?php echo $text_color; ?> !important;}
-			@media (max-width: 768px) {	nav a, nav a i {color: #222222 !important;}}
 		</style>
 	</head>
+	
 	<body>
 		<?php 
 			include("views/loader.html");
 			include("views/header.html");
 			include("views/floating_contact.html");
+			include("views/content.html");
+			include("views/footer.html");
 		?>
-
-		<?php include("views/content.html"); ?>
-		<?php include("views/footer.html"); ?>
 
 		<!-- LIBS AND SCRIPTS -->
 		<script src="resources/libraries/javascript/jquery.min.js"></script>

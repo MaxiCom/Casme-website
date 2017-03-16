@@ -1,4 +1,5 @@
-@import "../../helpers/_variables";
+@import '../../helpers/_variables';
+@import '../../helpers/_mixins';
 
 #floatingWrapper {
 	position: fixed;
@@ -9,7 +10,7 @@
 }
 
 #floatingContact {
-	left: -279px;
+	left: -284px;
 }
 
 #floatingMail {
@@ -38,38 +39,32 @@
 
 	background-color: white;
 
-	transition: left .5s ease-out;
-
 	cursor: pointer;
 
 	color: $blue-color;
 
-	h4 {
-		display: inline-block;
+	@include transition('left', .5s, ease);
 
-		margin: 0;
-
+	a {
 		font-size: 20px;
 
 		color: $blue-color;
+
+		&:hover {
+			text-decoration: none;
+		}
 	}
 
 	i {
 		float: right;
 
 		width: 50px;
-		line-height: 45px;
+		line-height: 48px;
 
 		text-align: center;
 
-		margin-left: 5px;
+		margin: 0 3px;
 
 		border-left: 1px solid grey;
-	}
-
-	u {
-		display: inline-block;
-
-		min-width: 135px;
 	}
 }
