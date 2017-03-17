@@ -10,13 +10,23 @@
 }
 
 #floatingContact {
-	left: -279px;
+	left: -286px;
+
+	a {
+		display: inline-block;
+		width: 280px;
+	}
 }
 
 #floatingMail {
-	left: -371px;
+	left: -376px;
 
 	margin-top: 55px;
+
+	a {
+		display: inline-block;
+		width: 370px;
+	}
 }
 
 #floatingContact:hover, #floatingMail:hover {
